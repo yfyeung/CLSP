@@ -1,7 +1,7 @@
 # CLSP
 <div align="center">
     <p>
-    <img src="assets/logo.png" alt="CLSP Logo" width="600pt">
+    <img src="assets/logo.png" alt="CLSP Logo" width="400pt">
     </p>
     <p>
     </p>
