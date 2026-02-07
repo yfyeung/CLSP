@@ -15,9 +15,9 @@
     </p>
 </div>
 
-**CLSP** (pronounced /klɪsp/) is a contrastive language–speech pretraining model for open-ended speaking style modeling that integrates global and fine-grained supervision to learn unified representations across multiple granularities. It performs reliably across global and fine-grained speech-text retrieval, zero-shot paralinguistic classification, and speech style similarity scoring, with strong alignment to human judgments.
-
 ## CLSP Model
+
+**CLSP** (pronounced /klɪsp/) is a contrastive language–speech pretraining model for open-ended speaking style modeling that integrates global and fine-grained supervision to learn unified representations across multiple granularities. It performs reliably across global and fine-grained speech-text retrieval, zero-shot paralinguistic classification, and speech style similarity scoring, with strong alignment to human judgments.
 
 [🤗Hugging Face](https://huggingface.co/yfyeung/CLSP)
 
@@ -286,6 +286,9 @@ print(torch.matmul(audio_features, text_features.t()))
 ```
 
 ## FCaps Dataset
+
+**FCaps** is a large-scale dataset with open-ended and fine-grained speaking style descriptions, encompassing 47k hours of speech and 19M captions.
+
 [🤗Hugging Face](https://huggingface.co/datasets/yfyeung/FCaps)
 
 ## Citation
