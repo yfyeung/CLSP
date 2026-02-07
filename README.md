@@ -15,7 +15,7 @@
     </p>
 </div>
 
-**CLSP (pronounced /klɪsp/)** is a contrastive language–speech pretraining model that integrates global and fine-grained supervision to learn unified representations across multiple granularities. It performs reliably across global and fine-grained speech-text retrieval, zero-shot paralinguistic classification, and speech style similarity scoring, with strong alignment to human judgments.
+**CLSP** (pronounced /klɪsp/) is a contrastive language–speech pretraining model for open-ended speaking style modeling that integrates global and fine-grained supervision to learn unified representations across multiple granularities. It performs reliably across global and fine-grained speech-text retrieval, zero-shot paralinguistic classification, and speech style similarity scoring, with strong alignment to human judgments.
 
 ## CLSP Model
 
@@ -23,7 +23,7 @@
 
 ### Architecture
 
-CLSP adopts a dual-encoder architecture, where speech and text are processed by separate encoders and projected into a shared embedding space.
+CLSP adopts a dual-encoder architecture in which speech and text are processed by separate encoders and projected into a shared embedding space.
 
 <img src="assets/model.png" alt="model" width="400pt">
 
