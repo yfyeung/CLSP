@@ -294,13 +294,11 @@ print(torch.matmul(audio_features, text_features.t()))
 ## Citation
 Please cite our paper if you find this work useful:
 ```
-@misc{yang2026clsp,
+@inproceedings{yang2026clsp,
     title={Towards Fine-Grained and Multi-Granular Contrastive Language-Speech Pre-training}, 
     author={Yifan Yang and Bing Han and Hui Wang and Wei Wang and Ziyang Ma and Long Zhou and Zengrui Jin and Guanrou Yang and Tianrui Wang and Xu Tan and Xie Chen},
+    booktitle={Proc. ACL},
     year={2026},
-    eprint={2601.03065},
-    archivePrefix={arXiv},
-    primaryClass={eess.AS},
-    url={https://arxiv.org/abs/2601.03065}, 
+    address={San Diego}, 
 }
 ```
